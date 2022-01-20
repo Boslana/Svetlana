@@ -22,7 +22,6 @@ class BaseClass {
         val url = URL("http://127.0.0.1:4723/wd/hub")
         val caps = DesiredCapabilities()
 
-
         caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android") // название платформы
         caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11.0") // версия ОС
         caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 4a API 30") // имя устройства
